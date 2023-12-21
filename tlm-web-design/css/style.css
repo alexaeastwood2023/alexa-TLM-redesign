@@ -1,0 +1,54 @@
+/* styling of all fonts on body not headers */
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Modularizing my code */
+.navColor,
+.buttonColor,
+.footerLinks:hover{
+  color:#DAA520;
+}
+/* styling backgrounds for ALL pages */
+.bodyForAllPages{
+   background:linear-gradient(105deg,#DAA520, #AAA99F,#F8EED5);
+}
+/*styling of ALL the headers in every page*/
+.mainPageHeaders{ 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align:center;
+  text-shadow:2px 2px 3px #F0F0F0;
+}
+/* styling of statement home page, boiler plate on about, course offerings, h3 for Contact and h5 for media */
+.statementHome,
+.boilerPlate,
+.coursesShadow, 
+.h3ForContact,
+.h5ForMedia{
+  text-shadow: 2px 2px 3px #23221F;
+}
+/*styling of the home pic*/
+.homePic{
+  border-radius:15px;
+}
+/* styling of the hover effect on the navLinks */
+.nav-link:hover{
+  color:#F0F0F0;
+}
+/* styling of the background on the modal */
+#staticBackdrop{
+  background-image: url("../images/tlm.png");
+  background-repeat:repeat;
+  background-size: 300px;
+}
+/*styling of links on the contact page*/
+.contactLinks:hover{
+  color:#ffffff;
+}
+/* styling of the send message font on the modal */
+#sendMessage{
+  text-shadow: 2px 2px 3px #DAA520;
+}
+/* styling of h1 in contact */
+.contactH1{
+  text-shadow: 2px 2px 3px #ffffff;
+}

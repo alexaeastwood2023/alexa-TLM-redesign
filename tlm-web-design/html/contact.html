@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="bodyForAllPages">
+
+  <!-- start of navbar -->
+  <nav class="navbar navbar-expand-lg navbar-white bg-dark">
+    <div class="container-fluid">
+      <a href="../index.html"> <img class="mb-3 mt-3" src="../images/logos/thelastmile1.jpg" height="100px"
+          alt="Logo"></a>
+      <button class="navbar-toggler bg-secondary buttonColor" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link navColor" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navColor" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navColor" href="./course.html">Course Offerings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navColor" href="./media.html">Media Page</a>
+          <li class="nav-item">
+            <a class="nav-link navColor text-secondary" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end of navbar -->
+
+  <!--start of header-->
+  <div class="container">
+    <div class="row">
+      <h1 class="mt-5 mb-5 mainPageHeaders display-2">Contact TLM</h1>
+      <hr>
+      <img class="col-md-6 mt-2 mb-2 p-3" src="../images/photos/textbook-and-keyboard1.jpg" alt="">
+      <img class="col-md-6 mt-2 mb-2 p-3" src="../images/photos/student-pointing1.jpg" alt="">
+      <h2 class="mainPageHeaders mb-3 mt-3">"Changing Life Through Tech"</h2>
+    </div>
+    <!--end of header-->
+
+    <!--start of contact info-->
+    <h2 class="text-center mb-5 mt-3">The Last Mile’s mission is to provide opportunities for personal and professional
+      growth for justice-impacted individuals through education and technology training.</h2>
+    <h3 class="mt-5 text-center text-warning h3ForContact"> Feel free to contact us:</h3>
+    <h4 class="text-center mt-3 mb-3">Email:
+      <a class="contactLinks" href="mailto:www.thelastmile.org">www.thelastmile.org</a>
+    </h4>
+    <h5 class="text-center mt-3 mb-3">Phone:
+      <a class="contactLinks" href="tel:+800-225-5525">+800-225-5525</a>
+    </h5>
+    <h6 class="text-center mt-3 mb-3">
+      The Last Mile<br>
+      548 Market St. PMB 70892 <br>
+      San Francisco, CA<br>
+      94104<br>
+    </h6>
+    <hr class="mb-5 mt-5">
+  </div>
+  <!--end of contact info-->
+
+  <!-- start of button trigger modal -->
+  <button type="button" class="btn btn-dark text-warning offset-md-5 mb-5 mt-3" data-bs-toggle="modal"
+    data-bs-target="#staticBackdrop">
+    Send Message to TLM
+  </button>
+  <!-- end of button modal -->
+
+  <!-- start of modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-warning modalFont" id="staticBackdropLabel">Message</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <h2 class="text-center" id="sendMessage">Send A Message to TLM</h2>
+            <form>
+              <div class="emailBox text-warning">
+                <label for="name">Your Name</label><br>
+                <input class="mb-2" id="yourname" type="name" placeholder="First and Last Name"><br>
+                <label for="emailAddress">Your Email Address</label><br>
+                <input id="emailAddress" type="email" placeholder="username@gmail.com">
+              </div>
+              <div class="messageBox text-warning">
+                <label for="message">Your Message</label><br>
+                <textarea id="message" cols="35" rows="4"
+                  placeholder="Heres where you put your message in at!"></textarea>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark text-white" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-warning text-dark " data-bs-dismiss="modal">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of modal -->
+
+  <!--start of footer-->
+  <footer class="container-fluid footerWidth bg-dark">
+    <div class="row text-center">
+      <p class="text-white col-md-3 mt-3">&copy;2023</p>
+      <a class="col-md-3 mt-2 mb-3 footerLinks" href="mailto:www.thelastmile.org">www.thelastmile.org</a>
+      <p class="text-white mt-2 col-md-3 mt-3"> 548 Market St. PMB 70892<br>
+        San Francisco, CA <br>
+        94104</p>
+      <a class="footerLinks col-md-3 mt-3" href="tel:+800-225-5525">+800-225-5525</a>
+    </div>
+  </footer>
+  <!--end of footer-->
+
+  <!-- links to bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script   src="https://code.jquery.com/jquery-3.7.1.min.js"   integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="   crossorigin="anonymous"></script>
+</body>
+
+</html>
